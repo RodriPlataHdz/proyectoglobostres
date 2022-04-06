@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script> 
+    var firebaseConfig = { 
+      apiKey: "AIzaSyC3EVs6kaT4xfPqIq4MQcCzfYTbFLIWNr4",
+    authDomain: "juego-multijugador-carre-5eb70.firebaseapp.com",
+    databaseURL: "https://juego-multijugador-carre-5eb70-default-rtdb.firebaseio.com",
+    projectId: "juego-multijugador-carre-5eb70",
+    storageBucket: "juego-multijugador-carre-5eb70.appspot.com",
+    messagingSenderId: "687784433630",
+    appId: "1:687784433630:web:e6c69e9bfb2ae815742f4f"}
+    
+    firebase.initializeApp(firebaseConfig); 
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
